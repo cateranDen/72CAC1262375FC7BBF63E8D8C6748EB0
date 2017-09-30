@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A0FE0D01F7E46CA0003D16C /* rootControllerSelectTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0FE0CF1F7E46CA0003D16C /* rootControllerSelectTools.m */; };
+		9A0FE0D41F7E4A8B0003D16C /* startViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0FE0D21F7E4A8B0003D16C /* startViewController.m */; };
+		9A0FE0D51F7E4A8B0003D16C /* startViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A0FE0D31F7E4A8B0003D16C /* startViewController.xib */; };
+		9A0FE0D81F7E4B040003D16C /* AccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0FE0D71F7E4B040003D16C /* AccountManager.m */; };
+		9A0FE0DC1F7E4B670003D16C /* accountModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0FE0DB1F7E4B670003D16C /* accountModel.m */; };
 		9A13704B1F7CD11F005A3FFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A13704A1F7CD11F005A3FFC /* AppDelegate.m */; };
-		9A13704E1F7CD11F005A3FFC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A13704D1F7CD11F005A3FFC /* ViewController.m */; };
 		9A1370511F7CD11F005A3FFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A13704F1F7CD11F005A3FFC /* Main.storyboard */; };
 		9A1370531F7CD11F005A3FFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A1370521F7CD11F005A3FFC /* Assets.xcassets */; };
 		9A1370561F7CD11F005A3FFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A1370541F7CD11F005A3FFC /* LaunchScreen.storyboard */; };
@@ -30,11 +34,26 @@
 
 /* Begin PBXFileReference section */
 		586E86FA3C949BA1E9D0D6C7 /* Pods-Needer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Needer.release.xcconfig"; path = "Pods/Target Support Files/Pods-Needer/Pods-Needer.release.xcconfig"; sourceTree = "<group>"; };
+		9A0FE0CE1F7E46CA0003D16C /* rootControllerSelectTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rootControllerSelectTools.h; sourceTree = "<group>"; };
+		9A0FE0CF1F7E46CA0003D16C /* rootControllerSelectTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rootControllerSelectTools.m; sourceTree = "<group>"; };
+		9A0FE0D11F7E4A8B0003D16C /* startViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = startViewController.h; sourceTree = "<group>"; };
+		9A0FE0D21F7E4A8B0003D16C /* startViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = startViewController.m; sourceTree = "<group>"; };
+		9A0FE0D31F7E4A8B0003D16C /* startViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = startViewController.xib; sourceTree = "<group>"; };
+		9A0FE0D61F7E4B040003D16C /* AccountManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountManager.h; sourceTree = "<group>"; };
+		9A0FE0D71F7E4B040003D16C /* AccountManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountManager.m; sourceTree = "<group>"; };
+		9A0FE0DA1F7E4B670003D16C /* accountModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = accountModel.h; sourceTree = "<group>"; };
+		9A0FE0DB1F7E4B670003D16C /* accountModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = accountModel.m; sourceTree = "<group>"; };
+		9A0FE0DD1F7E4BCB0003D16C /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		9A0FE0DE1F7E4BE70003D16C /* Constant_color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant_color.h; sourceTree = "<group>"; };
+		9A0FE0DF1F7E4BFB0003D16C /* Constant_category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant_category.h; sourceTree = "<group>"; };
+		9A0FE0E01F7E4C0E0003D16C /* Constant_Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant_Macro.h; sourceTree = "<group>"; };
+		9A0FE0E11F7E4F2B0003D16C /* UIBarButtonItem+Extention.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extention.h"; sourceTree = "<group>"; };
+		9A0FE0E21F7E4F2B0003D16C /* UIView+Extention.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extention.m"; sourceTree = "<group>"; };
+		9A0FE0E31F7E4F2B0003D16C /* UIView+Extention.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Extention.h"; sourceTree = "<group>"; };
+		9A0FE0E41F7E4F2C0003D16C /* UIBarButtonItem+Extention.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extention.m"; sourceTree = "<group>"; };
 		9A1370461F7CD11F005A3FFC /* Needer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Needer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A1370491F7CD11F005A3FFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9A13704A1F7CD11F005A3FFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9A13704C1F7CD11F005A3FFC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9A13704D1F7CD11F005A3FFC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9A1370501F7CD11F005A3FFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A1370521F7CD11F005A3FFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A1370551F7CD11F005A3FFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -80,6 +99,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A0FE0D91F7E4B4C0003D16C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A0FE0DA1F7E4B670003D16C /* accountModel.h */,
+				9A0FE0DB1F7E4B670003D16C /* accountModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		9A13703D1F7CD11F005A3FFC = {
 			isa = PBXGroup;
 			children = (
@@ -111,8 +139,6 @@
 				9A13705F1F7CD432005A3FFC /* Other */,
 				9A1370491F7CD11F005A3FFC /* AppDelegate.h */,
 				9A13704A1F7CD11F005A3FFC /* AppDelegate.m */,
-				9A13704C1F7CD11F005A3FFC /* ViewController.h */,
-				9A13704D1F7CD11F005A3FFC /* ViewController.m */,
 				9A13704F1F7CD11F005A3FFC /* Main.storyboard */,
 				9A1370521F7CD11F005A3FFC /* Assets.xcassets */,
 				9A1370541F7CD11F005A3FFC /* LaunchScreen.storyboard */,
@@ -125,6 +151,7 @@
 		9A13705F1F7CD432005A3FFC /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				9A0FE0D91F7E4B4C0003D16C /* Model */,
 				9A1370601F7CD432005A3FFC /* Category */,
 				9A1370611F7CD432005A3FFC /* Constant */,
 				9A1370621F7CD432005A3FFC /* ConstText */,
@@ -137,6 +164,10 @@
 		9A1370601F7CD432005A3FFC /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				9A0FE0E11F7E4F2B0003D16C /* UIBarButtonItem+Extention.h */,
+				9A0FE0E41F7E4F2C0003D16C /* UIBarButtonItem+Extention.m */,
+				9A0FE0E31F7E4F2B0003D16C /* UIView+Extention.h */,
+				9A0FE0E21F7E4F2B0003D16C /* UIView+Extention.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -144,6 +175,10 @@
 		9A1370611F7CD432005A3FFC /* Constant */ = {
 			isa = PBXGroup;
 			children = (
+				9A0FE0DD1F7E4BCB0003D16C /* Constant.h */,
+				9A0FE0DE1F7E4BE70003D16C /* Constant_color.h */,
+				9A0FE0DF1F7E4BFB0003D16C /* Constant_category.h */,
+				9A0FE0E01F7E4C0E0003D16C /* Constant_Macro.h */,
 			);
 			path = Constant;
 			sourceTree = "<group>";
@@ -162,6 +197,9 @@
 				9AF81D351F7D2CD4000CB5F3 /* RootTabbarController.m */,
 				9AF81D371F7D2CF1000CB5F3 /* RootNavigationController.h */,
 				9AF81D381F7D2CF1000CB5F3 /* RootNavigationController.m */,
+				9A0FE0D11F7E4A8B0003D16C /* startViewController.h */,
+				9A0FE0D21F7E4A8B0003D16C /* startViewController.m */,
+				9A0FE0D31F7E4A8B0003D16C /* startViewController.xib */,
 			);
 			path = RootController;
 			sourceTree = "<group>";
@@ -169,6 +207,10 @@
 		9A1370641F7CD432005A3FFC /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				9A0FE0CE1F7E46CA0003D16C /* rootControllerSelectTools.h */,
+				9A0FE0CF1F7E46CA0003D16C /* rootControllerSelectTools.m */,
+				9A0FE0D61F7E4B040003D16C /* AccountManager.h */,
+				9A0FE0D71F7E4B040003D16C /* AccountManager.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -481,6 +523,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A1370561F7CD11F005A3FFC /* LaunchScreen.storyboard in Resources */,
+				9A0FE0D51F7E4A8B0003D16C /* startViewController.xib in Resources */,
 				9A1370531F7CD11F005A3FFC /* Assets.xcassets in Resources */,
 				9A1370511F7CD11F005A3FFC /* Main.storyboard in Resources */,
 			);
@@ -541,10 +584,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A13704E1F7CD11F005A3FFC /* ViewController.m in Sources */,
 				9AF81D361F7D2CD4000CB5F3 /* RootTabbarController.m in Sources */,
 				9AF81D451F7D3190000CB5F3 /* IMBaseViewController.m in Sources */,
 				9AF81D3F1F7D2FCE000CB5F3 /* mineViewController.m in Sources */,
+				9A0FE0DC1F7E4B670003D16C /* accountModel.m in Sources */,
+				9A0FE0D41F7E4A8B0003D16C /* startViewController.m in Sources */,
 				9A1370591F7CD11F005A3FFC /* main.m in Sources */,
 				9AF81D3C1F7D2FA5000CB5F3 /* mineBeastViewController.m in Sources */,
 				9AF81D4E1F7D46E9000CB5F3 /* findBaseViewController.m in Sources */,
@@ -556,6 +600,8 @@
 				9A13704B1F7CD11F005A3FFC /* AppDelegate.m in Sources */,
 				9AF81D421F7D2FF3000CB5F3 /* mainBaseViewController.m in Sources */,
 				9AF81D541F7D473C000CB5F3 /* circleBaseViewController.m in Sources */,
+				9A0FE0D01F7E46CA0003D16C /* rootControllerSelectTools.m in Sources */,
+				9A0FE0D81F7E4B040003D16C /* AccountManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -692,6 +738,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YV66YG42MQ;
+				GCC_PREFIX_HEADER = /Users/qianbosheng/Desktop/Needer/Needer/Other/Constant/Constant.h;
 				INFOPLIST_FILE = Needer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.needer.Needer;
@@ -707,6 +754,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YV66YG42MQ;
+				GCC_PREFIX_HEADER = /Users/qianbosheng/Desktop/Needer/Needer/Other/Constant/Constant.h;
 				INFOPLIST_FILE = Needer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.needer.Needer;
