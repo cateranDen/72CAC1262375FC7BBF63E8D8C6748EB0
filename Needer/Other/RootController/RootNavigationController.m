@@ -14,24 +14,31 @@
 
 @implementation RootNavigationController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
++ (void)initialize{
+    [self setupNavigationControllerTheme];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
++ (void)setupNavigationControllerTheme{
+    UINavigationBar *apperace = [UINavigationBar appearance];
+    NSDictionary *textAttr = @{NSForegroundColorAttributeName:color_Navigation_TitleColor};
+    apperace.tintColor = [UIColor whiteColor];
+    apperace.titleTextAttributes = textAttr;
+    apperace.barTintColor = color_Navigation_BG;
+    
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated{
+    if (self.viewControllers.count > 0) {
+        viewController.hidesBottomBarWhenPushed = YES;
+        viewController.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImageName:@"nav_item_left" target:self action:@selector(backToViewController)];
+    }
+    [super pushViewController:viewController
+                     animated:animated];
 }
-*/
+
+- (void)backToViewController{
+    [self popViewControllerAnimated:YES];
+}
+
 
 @end
